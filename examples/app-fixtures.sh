@@ -12,3 +12,4 @@ cd $DIR
 export FLASK_APP=app.py
 
 # Setup fixtures
+flask fixtures records

@@ -11,5 +11,8 @@ DIR=`dirname "$0"`
 cd $DIR
 export FLASK_APP=app.py
 
-# Setup app
-mkdir $DIR/instance
+flask collect -v
+flask webpack buildall
+flask db init
+flask db create
+

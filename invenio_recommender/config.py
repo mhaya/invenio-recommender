@@ -7,11 +7,6 @@
 
 """Invenio module that adds CORE Recommender integration"""
 
-# TODO: This is an example file. Remove it if your package does not use any
-# extra configuration variables.
+RECOMMENDER_ID = 'c1adfd'
+""""Recommender ID  """
 
-RECOMMENDER_DEFAULT_VALUE = 'foobar'
-"""Default value for the application."""
-
-RECOMMENDER_BASE_TEMPLATE = 'invenio_recommender/base.html'
-"""Default base template for the demo page."""
