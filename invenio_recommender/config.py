@@ -7,6 +7,6 @@
 
 """Invenio module that adds CORE Recommender integration"""
 
-RECOMMENDER_ID = 'c1adfd'
+RECOMMENDER_ID = ''
 """"Recommender ID  """
 
